@@ -1,7 +1,7 @@
 name: schedule
 on:
   schedule:
-    - cron: '0 * * * *'  # hourly
+    - cron: '0 */12 * * *'  # hourly
   push:
     branches: master
 jobs:
